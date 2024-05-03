@@ -2,6 +2,7 @@
 sudo npm install -g n
 sudo n lts
 node --version // verify latest version update
+snap --version
 sudo snap install postman
 
 // Create directory in CLI
