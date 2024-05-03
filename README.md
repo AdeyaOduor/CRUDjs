@@ -2,6 +2,7 @@
 sudo npm install -g n
 sudo n lts
 node --version // verify latest version update
+sudo snap install postman
 
 // Create directory in CLI
 mkdir CRUDjs
@@ -27,3 +28,13 @@ npm start //starts server
 // Create the POST /users Endpoint for adding data to the database by typing the following in terminal
 npm install uuid //generate a unique ID for each user you will be creating. 
 // import the uuid package inside the users.js file 
+//Here are the steps to follow to make a POST request on Postman:
+
+    Go to Postman
+    Open a new request tab
+    Select "POST" from the list of available HTTP methods
+    In the URL field, enter the full URL where you want to send the POST request (http://localhost:5000/users)
+    Click on the "Body" tab in the request window.
+    Choose the format in which you want to send your POST data (choose JSON).
+    Enter the data you want to send in the request body. This data should match the format expected by the server.
+    Finally, click on “Send”
