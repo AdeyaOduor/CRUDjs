@@ -47,7 +47,6 @@ npm install uuid //generate a unique ID for each user you will be creating.
     Create a new GET request tab, copy in the base API URL, and add the id of any of the users to it. It should be in a format like this: http://localhost:5000/users/734a9e75-b3f5-415f-82fb-79b4fdf1a593
     Click on “Send”. If it’s successful, you will see the user information of the user id you used for the request
 //Test the DELETE user by ID Request
-
 Here are the steps to delete a user from the database on Postman:
 
     Go to Postman
@@ -55,3 +54,13 @@ Here are the steps to delete a user from the database on Postman:
     Select "DELETE" from the list of available HTTP methods
     Enter the URL. It should contain the id of the user you want to delete (for example: http://localhost:5000/users/734a9e75-b3f5-415f-82fb-79b4fdf1a593). If you don’t have a user in your database, you will need to create one and copy the id.
     Click on “Send”.
+//Test the PATCH/update by user ID Request
+Follow these steps to make a PATCH request in Postman:
+
+    Go to Postman
+    Open a new request tab
+    Select "PATCH" from the list of available HTTP methods
+    Enter URL; the URL will contain the id of the user you want to delete (for example: http://localhost:5000/users/734a9e75-b3f5-415f-82fb-79b4fdf1a593). If you don’t have a user in your database, you will need to create one and copy the id.
+    Click on the "Body" tab in the request window and choose the format in which you want to send your PATCH data (for example: JSON, form-data, x-www-form-urlencoded).
+    Enter the data you want to send in the request body. This data should only include the specific changes you want to make to the resource.
+    Then click the "Send" button. Postman will send the PATCH request to the specified URL with the provided data.
