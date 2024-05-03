@@ -20,3 +20,10 @@ npm install nodemon //install nodemon to listen for changes and update automatic
 // place "start": "nodemon index.js", inside package.json file under the scripts before "tests".
 
 // Create a new folder called routes and a new file called users.js inside the routes folder
+npm start //starts server
+
+// copy your API URL, http://localhost:5000/users, and paste it either on Postman or in browser to test the GET method {browsers only tests GET requests while postman tests all methods. If you are using Postman, you will first need to make a GET request, then paste your API URL, and then click on send. After that, you will see the list of users in your Postman console.}
+
+// Create the POST /users Endpoint for adding data to the database by typing the following in terminal
+npm install uuid //generate a unique ID for each user you will be creating. 
+// import the uuid package inside the users.js file 
