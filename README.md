@@ -38,3 +38,11 @@ npm install uuid //generate a unique ID for each user you will be creating.
     Choose the format in which you want to send your POST data (choose JSON).
     Enter the data you want to send in the request body. This data should match the format expected by the server.
     Finally, click on “Send”
+
+//Test the GET user by ID Request using postman
+
+    Go to your POST request tab and make as many requests as you want to add a new user to the database.
+    Go to your GET request tab and make a request to see the list of users you have added
+        Copy the id of any of the users on the list
+    Create a new GET request tab, copy in the base API URL, and add the id of any of the users to it. It should be in a format like this: http://localhost:5000/users/734a9e75-b3f5-415f-82fb-79b4fdf1a593
+    Click on “Send”. If it’s successful, you will see the user information of the user id you used for the request
