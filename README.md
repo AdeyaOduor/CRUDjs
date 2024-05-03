@@ -12,3 +12,7 @@ cd CRUDjs
 touch index.js // create index file 
 npm init -y // initialise npm
 npm install express // install express
+
+// start the server, by running the following in terminal
+node index.js
+npm install nodemon //install nodemon to listen for changes and update automatically on browser
