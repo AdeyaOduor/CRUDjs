@@ -1,4 +1,4 @@
-// Updating node.js via CLI on ubuntu terminal
+Updating node.js via CLI on ubuntu terminal
 sudo npm install -g n
 sudo n lts
 
