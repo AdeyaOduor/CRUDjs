@@ -79,3 +79,11 @@ Follow these steps to make a PATCH request in Postman:
     Click on the "Body" tab in the request window and choose the format in which you want to send your PATCH data (for example: JSON, form-data, x-www-form-urlencoded).
     Enter the data you want to send in the request body. This data should only include the specific changes you want to make to the resource.
     Then click the "Send" button. Postman will send the PATCH request to the specified URL with the provided data.
+
+/* Connecting an app to mongoDB
+Create a new Database user using database access, save DB name and password
+Create a cluster
+Connect user to a cluster
+Connect application to the cluster, and save the connection string generated elsewhere
+Add your data i.e database name and table(collection name)
+create the database.*/
