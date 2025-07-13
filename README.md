@@ -7,13 +7,12 @@ node --version
 snap --version
 sudo snap install postman
 
-// Create directory in CLI
+// Create directory in CLI and open CRUDjs in vscode
 mkdir CRUDjs
 cd CRUDjs 
-open CRUDjs in vscode
+code .
 
-//inside vscode terminal
-// create index file 
+//inside vscode terminal, create index file 
 touch index.js 
 
 // initialise npm
@@ -21,6 +20,8 @@ npm init -y
 
 // install express
 npm install express 
+
+// include "type":"module", inside package.json file to adopt ES6 
 
 // start the server, by running the following in terminal
 node index.js
